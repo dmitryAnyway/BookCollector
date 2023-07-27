@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BookCollector_Tests' do
+  pod 'BookCollector', :path => '../'
+  
+  
+end
