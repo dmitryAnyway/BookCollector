@@ -1,0 +1,22 @@
+{
+  "name": "BookCollector",
+  "version": "0.1.0",
+  "summary": "A short description of BookCollector.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ext.dzubarev/BookCollector",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ext.dzubarev": "ext.dzubarev@tinkoff.ru"
+  },
+  "source": {
+    "git": "https://github.com/ext.dzubarev/BookCollector.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "BookCollector/Classes/**/*"
+}
