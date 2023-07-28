@@ -11,7 +11,7 @@
 @implementation BCRBookCollector : NSObject
 
 - (void) collect {
-    
+    NSLog(@"it is work");
 }
  
 @end

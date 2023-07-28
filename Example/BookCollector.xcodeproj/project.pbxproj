@@ -48,8 +48,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				6828BDF22A72786C00A58183 /* BCRBookCollector.h */,
-				6828BDF32A7278C300A58183 /* BCRBookCollector.m */,
+				6828BDF42A745D5A00A58183 /* Collector */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
@@ -104,6 +103,15 @@
 				7DA197595B9FDCBB8A21E891 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		6828BDF42A745D5A00A58183 /* Collector */ = {
+			isa = PBXGroup;
+			children = (
+				6828BDF22A72786C00A58183 /* BCRBookCollector.h */,
+				6828BDF32A7278C300A58183 /* BCRBookCollector.m */,
+			);
+			name = Collector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
