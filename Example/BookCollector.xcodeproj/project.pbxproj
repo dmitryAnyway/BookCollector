@@ -44,8 +44,10 @@
 		682442F92A76C5A100467DD2 /* BookCollectorFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = BookCollectorFramework.docc; sourceTree = "<group>"; };
 		682442FF2A76C5A100467DD2 /* BookCollectorFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookCollectorFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		682443042A76C5A100467DD2 /* BookCollectorFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectorFrameworkTests.swift; sourceTree = "<group>"; };
-		6828BDF22A72786C00A58183 /* BookCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookCollector.h; sourceTree = "<group>"; };
-		6828BDF32A7278C300A58183 /* BookCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookCollector.m; sourceTree = "<group>"; };
+		6824430D2A76C6A900467DD2 /* BookCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookCollector.h; sourceTree = "<group>"; };
+		6824430E2A76C70A00467DD2 /* BookCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookCollector.h; sourceTree = "<group>"; };
+		6824430F2A76C72000467DD2 /* CollectorApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectorApi.h; sourceTree = "<group>"; };
+		6828BDF32A7278C300A58183 /* CollectorApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectorApi.m; sourceTree = "<group>"; };
 		7DA197595B9FDCBB8A21E891 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E640FA970BDA12899758C6B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +84,9 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				6824430D2A76C6A900467DD2 /* BookCollector.h */,
+				6824430E2A76C70A00467DD2 /* BookCollector.h */,
+				6828BDF42A745D5A00A58183 /* Collector */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
@@ -146,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				682442F82A76C5A100467DD2 /* BookCollectorFramework.h */,
-				6828BDF42A745D5A00A58183 /* Collector */,
 				682442F92A76C5A100467DD2 /* BookCollectorFramework.docc */,
 			);
 			path = BookCollectorFramework;
@@ -163,11 +167,10 @@
 		6828BDF42A745D5A00A58183 /* Collector */ = {
 			isa = PBXGroup;
 			children = (
-				6828BDF22A72786C00A58183 /* BookCollector.h */,
-				6828BDF32A7278C300A58183 /* BookCollector.m */,
+				6828BDF32A7278C300A58183 /* CollectorApi.m */,
+				6824430F2A76C72000467DD2 /* CollectorApi.h */,
 			);
 			name = Collector;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

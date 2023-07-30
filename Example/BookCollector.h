@@ -2,7 +2,7 @@
 //  BookCollector.h
 //  BookCollector
 //
-//  Created by Дмитрий on 27.07.2023.
+//  Created by Дмитрий on 30.07.2023.
 //  Copyright © 2023 ext.dzubarev. All rights reserved.
 //
 
@@ -12,8 +12,12 @@
 
 #endif /* BookCollector_h */
 
-@interface BCRBookCollector : NSObject
+//! Project version number for BookCollectorFramework.
+FOUNDATION_EXPORT double BookCollectorVersionNumber;
 
-- (void) collect;
- 
-@end
+//! Project version string for BookCollectorFramework.
+FOUNDATION_EXPORT const unsigned char BookCollectorVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <BookCollectorFramework/PublicHeader.h>
+
+#import <BookCollector/CollectorApi.h>
